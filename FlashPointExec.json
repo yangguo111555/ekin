@@ -1,0 +1,925 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "address[]",
+				"name": "walletaddressArray",
+				"type": "address[]"
+			}
+		],
+		"name": "AddAccountArray",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "Pair",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Location",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "Stable",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "Token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Fee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "AmountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "JudgeTokenReserve",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "JudgeSqrtPriceX96",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct ContractFlashPointExec.FlashPointDataP0",
+				"name": "_p0data",
+				"type": "tuple"
+			}
+		],
+		"name": "BuyCoinP0",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "Pair",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Location",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "Stable",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "Token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Fee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "AmountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "JudgeTokenReserve",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "JudgeSqrtPriceX96",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct ContractFlashPointExec.FlashPointDataP0",
+				"name": "_p0data",
+				"type": "tuple"
+			}
+		],
+		"name": "BuyCoinP0Pack",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "Pair",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Location",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "Stable",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "Token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Fee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "AmountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "JudgeTokenReserve",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "JudgeSqrtPriceX96",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct ContractFlashPointExec.FlashPointDataP0",
+				"name": "_p0data",
+				"type": "tuple"
+			}
+		],
+		"name": "BuyCoinV3P0",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "Pair",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Location",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "Stable",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "Token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Fee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "AmountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "JudgeTokenReserve",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "JudgeSqrtPriceX96",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct ContractFlashPointExec.FlashPointDataP0",
+				"name": "_p0data",
+				"type": "tuple"
+			}
+		],
+		"name": "BuyCoinV3P0Pack",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "Token",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "Pair1",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "Stable1",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Pair1Type",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Pair1Fee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Pair1Location",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "Pair2",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "Stable2",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Pair2Type",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Pair2Fee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Pair2Location",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "P0Pair2BuyStableAmountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "P0Pair2BuyTokenAmountOutMin",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "P0Pair1SellTokenAmountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "P0Pair1SellStableAmountOutMin",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "P2Pair1BuyStableAmountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "P2Pair1BuyTokenAmountOutMin",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "P2Pair2SellTokenAmountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "P2Pair2SellStableAmountOutMin",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "TransferTarget",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "TransferAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "CheckBlockNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "SimulatePack",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct ContractFlashPointExec.FlashPointData",
+				"name": "_p0data",
+				"type": "tuple"
+			}
+		],
+		"name": "P0Order",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "Token",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "Pair1",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "Stable1",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Pair1Type",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Pair1Fee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Pair1Location",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "Pair2",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "Stable2",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Pair2Type",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Pair2Fee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Pair2Location",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "P0Pair2BuyStableAmountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "P0Pair2BuyTokenAmountOutMin",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "P0Pair1SellTokenAmountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "P0Pair1SellStableAmountOutMin",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "P2Pair1BuyStableAmountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "P2Pair1BuyTokenAmountOutMin",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "P2Pair2SellTokenAmountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "P2Pair2SellStableAmountOutMin",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "TransferTarget",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "TransferAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "CheckBlockNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "SimulatePack",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct ContractFlashPointExec.FlashPointData",
+				"name": "_p2data",
+				"type": "tuple"
+			}
+		],
+		"name": "P2Order",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "int256",
+				"name": "amount0Delta",
+				"type": "int256"
+			},
+			{
+				"internalType": "int256",
+				"name": "amount1Delta",
+				"type": "int256"
+			},
+			{
+				"internalType": "bytes",
+				"name": "data",
+				"type": "bytes"
+			}
+		],
+		"name": "pancakeV3SwapCallback",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "Pair",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Location",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "Stable",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "Token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Fee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "AmountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "JudgeTokenReserve",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "JudgeSqrtPriceX96",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct ContractFlashPointExec.FlashPointDataP0",
+				"name": "_p0data",
+				"type": "tuple"
+			}
+		],
+		"name": "SellCoinP0",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "Pair",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Location",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "Stable",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "Token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Fee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "AmountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "JudgeTokenReserve",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "JudgeSqrtPriceX96",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct ContractFlashPointExec.FlashPointDataP0",
+				"name": "_p0data",
+				"type": "tuple"
+			}
+		],
+		"name": "SellCoinP0Pack",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "Pair",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Location",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "Stable",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "Token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Fee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "AmountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "JudgeTokenReserve",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "JudgeSqrtPriceX96",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct ContractFlashPointExec.FlashPointDataP0",
+				"name": "_p0data",
+				"type": "tuple"
+			}
+		],
+		"name": "SellCoinV3P0",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "Pair",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Location",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "Stable",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "Token",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "Fee",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "AmountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "JudgeTokenReserve",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "JudgeSqrtPriceX96",
+						"type": "uint256"
+					}
+				],
+				"internalType": "struct ContractFlashPointExec.FlashPointDataP0",
+				"name": "_p0data",
+				"type": "tuple"
+			}
+		],
+		"name": "SellCoinV3P0Pack",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "to",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "tokenAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "number",
+				"type": "uint256"
+			}
+		],
+		"name": "TransCoinTo",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address payable",
+				"name": "_to",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_amount",
+				"type": "uint256"
+			}
+		],
+		"name": "TransferBNBOut",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"stateMutability": "payable",
+		"type": "constructor"
+	},
+	{
+		"stateMutability": "payable",
+		"type": "receive"
+	},
+	{
+		"inputs": [
+			{
+				"components": [
+					{
+						"internalType": "address",
+						"name": "TokenIn",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "TokenOut",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "AmountIn",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "AmountOut",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint24",
+						"name": "Fee9975",
+						"type": "uint24"
+					},
+					{
+						"internalType": "uint160",
+						"name": "SqrtPrice",
+						"type": "uint160"
+					},
+					{
+						"internalType": "address",
+						"name": "Pair",
+						"type": "address"
+					}
+				],
+				"internalType": "struct ContractFlashPointExec.ContractCalculateIn",
+				"name": "_CalculateData",
+				"type": "tuple"
+			}
+		],
+		"name": "ExactInputSingle",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "uint256",
+						"name": "Amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint160",
+						"name": "SqrtPrice",
+						"type": "uint160"
+					},
+					{
+						"internalType": "uint128",
+						"name": "Liquidity",
+						"type": "uint128"
+					},
+					{
+						"internalType": "int24",
+						"name": "Tick",
+						"type": "int24"
+					}
+				],
+				"internalType": "struct ContractFlashPointExec.ExactResult",
+				"name": "_ExactResult",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "tokenIn",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "tokenOut",
+				"type": "address"
+			},
+			{
+				"internalType": "uint24",
+				"name": "fee",
+				"type": "uint24"
+			},
+			{
+				"internalType": "uint160",
+				"name": "sqrtPricePresent",
+				"type": "uint160"
+			},
+			{
+				"internalType": "uint160",
+				"name": "sqrtPriceTarget",
+				"type": "uint160"
+			},
+			{
+				"internalType": "uint128",
+				"name": "liquidity",
+				"type": "uint128"
+			}
+		],
+		"name": "GetAmountInAndOut",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "amountIn",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "amountOut",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint128",
+				"name": "endLiquidity",
+				"type": "uint128"
+			},
+			{
+				"internalType": "int24",
+				"name": "tickCurrent",
+				"type": "int24"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
